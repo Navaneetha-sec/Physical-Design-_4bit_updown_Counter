@@ -72,26 +72,32 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1280" height="706" alt="image" src="https://github.com/user-attachments/assets/bbe45a1b-0915-49be-bc0d-6e3101056cc5" />
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="1280" height="704" alt="image" src="https://github.com/user-attachments/assets/f4f61471-5fe2-4ede-8eba-55807eefc9bf" />
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1280" height="697" alt="image" src="https://github.com/user-attachments/assets/257d0eac-6dca-4292-9e08-adb66a68b7db" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1280" height="697" alt="image" src="https://github.com/user-attachments/assets/7abbf72a-184f-492a-b772-1ac5c4949493" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/047e39fa-142c-4f09-bc89-5c85bd843327" />
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/ebd6a6c8-34ad-4cae-bafd-d504d530f5a3" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -126,6 +132,7 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1280" height="702" alt="image" src="https://github.com/user-attachments/assets/1f296939-2f63-4340-bc14-a8715364628a" />
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,10 +177,12 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/80e7e7e2-1631-4ed2-a024-2907d9878945" />
 
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/cd0c0bd2-f753-4a47-868a-20b27ad284c0" />
 
 #### → Placement 
 
@@ -186,6 +195,7 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1280" height="700" alt="image" src="https://github.com/user-attachments/assets/01a73a6e-ca54-4f72-80c7-d09cab11df83" />
 
 ## Result
 
